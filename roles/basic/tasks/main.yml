@@ -1,0 +1,6 @@
+- name: Installing sslscan
+  homebrew: 
+    name: sslscan
+    state: latest
+  tags:
+    - brew
